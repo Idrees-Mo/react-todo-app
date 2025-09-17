@@ -1,0 +1,29 @@
+/* Additional CSS Variables for Component Theming */
+:root {
+  /* Button variables */
+  --button-padding-sm: 6px 12px;
+  --button-padding-md: 8px 16px;
+  --button-padding-lg: 12px 24px;
+
+  /* Form variables */
+  --input-border-color: var(--color-gray-300);
+  --input-border-color-focus: var(--color-primary);
+  --input-border-radius: var(--border-radius-sm);
+  --input-padding: 10px 12px;
+
+  /* Todo item variables */
+  --todo-item-border: 1px solid var(--color-gray-300);
+  --todo-item-border-radius: var(--border-radius-sm);
+  --todo-item-padding: 12px;
+  --todo-item-gap: 10px;
+
+  /* Priority badge variables */
+  --priority-badge-size: 24px;
+  --priority-badge-border-radius: 50%;
+  --priority-badge-font-size: 10px;
+
+  /* Animation variables */
+  --slide-in-duration: 0.3s;
+  --fade-in-duration: 0.2s;
+  --bounce-duration: 0.5s;
+}
