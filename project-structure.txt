@@ -1,0 +1,68 @@
+react-todo-app/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── TodoItem/
+│   │   │   ├── TodoItem.tsx
+│   │   │   ├── TodoItem.module.css
+│   │   │   ├── TodoItem.types.ts
+│   │   │   └── index.ts
+│   │   ├── TodoList/
+│   │   │   ├── TodoList.tsx
+│   │   │   ├── TodoList.module.css
+│   │   │   ├── TodoList.types.ts
+│   │   │   └── index.ts
+│   │   ├── TodoForm/
+│   │   │   ├── TodoForm.tsx
+│   │   │   ├── TodoForm.module.css
+│   │   │   ├── TodoForm.types.ts
+│   │   │   └── index.ts
+│   │   ├── TodoFilters/
+│   │   │   ├── TodoFilters.tsx
+│   │   │   ├── TodoFilters.module.css
+│   │   │   ├── TodoFilters.types.ts
+│   │   │   └── index.ts
+│   │   ├── TodoStats/
+│   │   │   ├── TodoStats.tsx
+│   │   │   ├── TodoStats.module.css
+│   │   │   ├── TodoStats.types.ts
+│   │   │   └── index.ts
+│   │   └── common/
+│   │       ├── Button/
+│   │       │   ├── Button.tsx
+│   │       │   ├── Button.module.css
+│   │       │   ├── Button.types.ts
+│   │       │   └── index.ts
+│   │       └── ErrorMessage/
+│   │           ├── ErrorMessage.tsx
+│   │           ├── ErrorMessage.module.css
+│   │           ├── ErrorMessage.types.ts
+│   │           └── index.ts
+│   ├── hooks/
+│   │   ├── useTodos.ts
+│   │   ├── useLocalStorage.ts
+│   │   └── useValidation.ts
+│   ├── types/
+│   │   ├── todo.ts
+│   │   ├── common.ts
+│   │   └── index.ts
+│   ├── utils/
+│   │   ├── constants.ts
+│   │   ├── helpers.ts
+│   │   └── validation.ts
+│   ├── styles/
+│   │   ├── globals.css
+│   │   ├── variables.css
+│   │   └── components.css
+│   ├── App.tsx
+│   ├── App.css
+│   ├── index.tsx
+│   └── index.css
+├── package.json
+├── tsconfig.json
+├── .gitignore
+├── README.md
+└── vite.config.ts
