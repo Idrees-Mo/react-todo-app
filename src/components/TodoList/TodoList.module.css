@@ -1,0 +1,61 @@
+.todoList {
+  margin: 20px 0;
+}
+
+.listHeader {
+  margin-bottom: 10px;
+}
+
+.hint {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 0;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 40px 20px;
+  color: #6c757d;
+}
+
+.emptyIcon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.emptyMessage {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+.emptyHint {
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .emptyState {
+    padding: 30px 15px;
+  }
+
+  .emptyIcon {
+    font-size: 36px;
+  }
+
+  .emptyMessage {
+    font-size: 16px;
+  }
+
+  .emptyHint {
+    font-size: 13px;
+  }
+}

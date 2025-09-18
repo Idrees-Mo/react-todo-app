@@ -1,0 +1,46 @@
+.filters {
+  margin: 20px 0;
+}
+
+.filterButtons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.count {
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.prioritySummary {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.summaryItem {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .filterButtons {
+    gap: 6px;
+  }
+
+  .prioritySummary {
+    gap: 15px;
+    font-size: 11px;
+  }
+}
