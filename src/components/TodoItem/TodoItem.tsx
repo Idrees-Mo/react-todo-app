@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import type { KeyboardEvent } from "react";
-// import Button from "@/components/common/Button";
-import Button from "../common/Button/Button";
+import Button from "@/components/common/Button";
 import type { TodoItemProps } from "./TodoItem.types";
 import { PRIORITY_COLORS } from "@/utils/constants";
 import styles from "./TodoItem.module.css";
